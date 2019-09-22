@@ -1,0 +1,28 @@
+#invoice ul li span {
+    width: 90px !important;
+    display: inline-block;
+}
+
+@media print{
+    .col-lg-4 {
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+    .col-lg-8 {
+        flex: 0 0 66.6666666667%;
+        max-width: 66.6666666667%;
+    }
+    .table-success, .table-success > th, .table-success > td {
+        background-color: #c1edba !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+    .table-success > thead > tr > th, .table-success > thead > tr > td {
+        background-color: #23bf08 !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+
+    .table-success > tbody > tr > th, .table-success > tbody > tr > td {
+        background-color: #d1fdc9 !important;
+        color: #115d04 !important;
+    }
+}

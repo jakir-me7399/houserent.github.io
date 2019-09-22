@@ -1,0 +1,99 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|PT+Sans:400,400i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+*:focus {
+ outline: none; 
+}
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html, body{
+    height: 100%;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+a:hover { 
+    text-decoration: none 
+}
+.h-100vh{
+    height: 100vh;
+}
+
+#owner_reg,
+#input_house, 
+#rent,
+#renter,
+#flat,
+#renter_arcive,
+#expense {
+    position: relative;
+    /* background-image: url(../images/owner_bg.jpg); */
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-color: #ccc;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+#owner_reg:after,
+#input_house:after,
+#rent:after,
+#renter:after,
+#flat:after,
+#renter_arcive:after,
+#expense:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: linear-gradient(90deg, rgb(25, 25, 27) 0%, rgba(172, 187, 180, 0.87718837535014) 100%);
+    /*opacity: .5;*/
+    z-index: -1;
+}
+
+.owner-reg-form, 
+.owner-login,
+.input-house,
+.rent,
+.renter,
+.flat,
+.renter-arcive,
+.expense {
+    margin: 30px 0;
+    background-color: #e2e2e2;
+    padding: 30px 20px;
+    border-radius: 3px;
+}

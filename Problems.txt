@@ -1,0 +1,5 @@
+## No logout button
+## url logout not working
+## On add house top left this tool showing http://localhost:8000/add-house
+   http://prntscr.com/osvn05
+## Add flat error
